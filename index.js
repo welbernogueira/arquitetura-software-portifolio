@@ -5,7 +5,7 @@ const port = 3000;
 app.get("/", (req, res) => {
   const user = "Welber";
   res.send(
-    `Realizei de forma completa atividade solicitada... Acesso permitido para ${user}.`
+    `Realizei de forma completa a atividade solicitada... Acesso permitido para ${user}.`
   );
 });
 
